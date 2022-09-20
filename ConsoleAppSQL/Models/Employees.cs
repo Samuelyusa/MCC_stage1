@@ -10,5 +10,9 @@ namespace ConsoleAppSQL.Models
     {
         public int EmployeeId { get; set; }
         public string? FirstName { get; set; }
+
+        public string JobId { get; set; }
+
+        public string DepartmentId { get; set; }
     }
 }
